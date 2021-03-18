@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Seller Onboarding</name>
+   <tag></tag>
+   <comment>Profile
+Address
+Payment</comment>
+   <testCaseGuid>035ce4e8-7890-4223-a50d-01971bc0d440</testCaseGuid>
+</TestCaseEntity>

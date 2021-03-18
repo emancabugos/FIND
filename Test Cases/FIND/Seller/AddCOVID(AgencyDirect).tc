@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddCOVID(AgencyDirect)</name>
+   <tag></tag>
+   <comment>Listing Name
+Categories
+Price
+SKU
+Item Description
+Item Cover Image
+Stocks
+Custom Fields
+Save</comment>
+   <testCaseGuid>c3a446b8-3cce-4c33-b592-19fbbc0a9084</testCaseGuid>
+</TestCaseEntity>

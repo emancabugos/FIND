@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add_CF</name>
+   <tag></tag>
+   <comment>Choose Field Type
+Field Name
+Mandatory/NonMandatory
+Assign Category
+Category Assignment</comment>
+   <testCaseGuid>45e28bc8-1b1b-492e-a656-a203322cedd5</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Custom Field/MogozayFIND CF')</defaultValue>
+      <description></description>
+      <id>f93ffe12-7777-4c9f-b880-73635f9d83d5</id>
+      <masked>false</masked>
+      <name>varCustomFieldName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Custom Field/MogozayFIND CF')</defaultValue>
+      <description></description>
+      <id>cca2f31b-daa8-461d-b0e2-363ba0aa996f</id>
+      <masked>false</masked>
+      <name>varCustomFieldType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Custom Field/MogozayFIND CF')</defaultValue>
+      <description></description>
+      <id>ca4d7676-540e-4710-bfee-97e3d010d4dc</id>
+      <masked>false</masked>
+      <name>varAssignedCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Custom Field/MogozayFIND CF')</defaultValue>
+      <description></description>
+      <id>d00c0b73-4a03-492d-8a51-96ed4429d90d</id>
+      <masked>false</masked>
+      <name>varMandatoryNonMandatory</name>
+   </variable>
+</TestCaseEntity>

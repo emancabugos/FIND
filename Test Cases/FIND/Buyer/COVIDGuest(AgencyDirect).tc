@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>COVIDGuest(AgencyDirect)</name>
+   <tag></tag>
+   <comment>Search on Homepage
+verify Procurement Options</comment>
+   <testCaseGuid>7c71f1ce-f487-4014-bd04-5a85f0667819</testCaseGuid>
+</TestCaseEntity>

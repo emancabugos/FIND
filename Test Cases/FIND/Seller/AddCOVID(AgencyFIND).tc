@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddCOVID(AgencyFIND)</name>
+   <tag></tag>
+   <comment>Listing Name
+Categories
+Price
+SKU
+Item Description
+Item Cover Image
+Stocks
+Custom Fields
+Save</comment>
+   <testCaseGuid>38b4a522-f388-401d-9e65-50873d30354a</testCaseGuid>
+</TestCaseEntity>

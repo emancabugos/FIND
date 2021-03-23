@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//p[@id = 'paymentstatus' and (text() = 'Payment Pending' or . = 'Payment Pending') and @class = 'delivery2-order-status']</value>
+         <value>//p[@id = 'paymentstatus' and (text() = 'N/A' or . = 'N/A') and @class = 'delivery2-order-status']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -39,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Payment Pending</value>
+      <value>N/A</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

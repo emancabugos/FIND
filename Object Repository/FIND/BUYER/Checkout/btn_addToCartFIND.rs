@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[4]/div[1]/div[2]/div/div[2]/div[1]/div[3]/a[2][count(. | //a[@class = 'add-cart-btn']) = count(//a[@class = 'add-cart-btn'])]</value>
+         <value>//a[@class = 'add-cart-btn' and (text() = 'ADD TO CART' or . = 'ADD TO CART') and @href = 'javascript: itemDetail.addItemToCart();']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,17 +27,24 @@
       <value>add-cart-btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add to CartPROCURE THROUGH FIND</value>
+      <value>ADD TO CART</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/div[4]/div[1]/div[2]/div/div[2]/div[1]/div[3]/a[2]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript: itemDetail.addItemToCart();</value>
    </webElementProperties>
 </WebElementEntity>

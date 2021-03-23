@@ -11,11 +11,10 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[4]/div[1]/div[2]/div/div[2]/div[1]/div[3]/div[2]/h3/div/span[2]</value>
+         <value>/html/body/div[4]/div[1]/div[2]/div/div[2]/div[1]/div[3]/div[1]/div/h3/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -39,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[4]/div[1]/div[2]/div/div[2]/div[1]/div[3]/div[2]/h3/div/span[2]</value>
+      <value>/html/body/div[4]/div[1]/div[2]/div/div[2]/div[1]/div[3]/div[1]/div/h3/div/span[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

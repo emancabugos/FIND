@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>FIND</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'covid19sandbox.test-arcadier.com'</initValue>
+      <name>COVIDhomepageURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'01findseller'</initValue>
+      <name>sellerUsernameFIND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'arcadier.tester1@gmail.com'</initValue>
+      <name>sellerNotifEmailFIND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'diagnostics.sandbox.arcadier.io/admin'</initValue>
+      <name>FINDadminURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Admin'</initValue>
+      <name>adminUsernameFIND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Diagnostics123!'</initValue>
+      <name>adminPasswordFIND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'01findbuyer'</initValue>
+      <name>buyerUsernameFIND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'gdasandbox.test-arcadier.com'</initValue>
+      <name>GDAhomepageURL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

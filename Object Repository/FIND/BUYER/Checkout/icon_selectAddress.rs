@@ -13,36 +13,40 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact number'])[1]/following::label[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div[1]/div[2]/div[1]/div[1]/div/div[2]/span[1]/label[count(. | //label[@for = 'delivery1']) = count(//label[@for = 'delivery1'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
       <value>delivery1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>SELECT ADDRESS</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;delivery-page pace-done&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;grey_section&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;delivery_white_section&quot;]/div[@class=&quot;delivery-address-sec&quot;]/div[@class=&quot;saved-address&quot;]/div[@class=&quot;address-box col-md-4 col-sm-6 gutter-30 hasemail&quot;]/div[@class=&quot;svd-adrsbox-inner&quot;]/div[@class=&quot;action&quot;]/span[@class=&quot;fancy-radio address-sel&quot;]/label[1]</value>
+      <value>/html/body/div[4]/div[2]/div/div[1]/div[2]/div[1]/div[1]/div/div[2]/span[1]/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

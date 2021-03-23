@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDM Verification_Account Suspended</name>
+   <tag></tag>
+   <comment>with precondition</comment>
+   <testCaseGuid>5cb12308-21bd-406a-a4fa-5d4936f72768</testCaseGuid>
+</TestCaseEntity>

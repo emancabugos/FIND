@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Mail Templates</name>
+   <tag></tag>
+   <comment>welcome mail
+onboard user</comment>
+   <testCaseGuid>03db1df3-0da7-408b-ba75-ddcb934f1a56</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDM Verification_Order Pickup_edited</name>
+   <tag></tag>
+   <comment>with precondition</comment>
+   <testCaseGuid>970145bd-9ccb-4bbe-9f0f-b267e2527720</testCaseGuid>
+</TestCaseEntity>

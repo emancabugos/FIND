@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mail Logs</name>
+   <tag></tag>
+   <comment>with precondition</comment>
+   <testCaseGuid>8d68a6c4-e8aa-45f6-a205-9da0506f1b6c</testCaseGuid>
+</TestCaseEntity>

@@ -39,7 +39,7 @@ WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Login/textbox_username')
 
 WebUI.setText(findTestObject('FIND/SELLER/Login/textbox_username'), GlobalVariable.buyerUsernameFIND)
 
-WebUI.setText(findTestObject('FIND/SELLER/Login/textbox_password'), 'welcome8')
+WebUI.setText(findTestObject('FIND/SELLER/Login/textbox_password'), GlobalVariable.buyerPasswordFind)
 
 WebUI.click(findTestObject('FIND/SELLER/Login/btn_submit'), FailureHandling.CONTINUE_ON_FAILURE)
 

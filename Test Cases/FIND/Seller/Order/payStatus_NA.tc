@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Seller Verify Order</name>
+   <name>payStatus_NA</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4bb2457a-a2a2-49ab-beaf-90ce567c6923</testCaseGuid>
+   <testCaseGuid>1218a1f5-d7c9-47f1-8ca6-a7f19ef9ae37</testCaseGuid>
 </TestCaseEntity>

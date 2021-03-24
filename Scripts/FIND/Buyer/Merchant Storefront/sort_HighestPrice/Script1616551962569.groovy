@@ -15,5 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.selectOptionByValue(findTestObject('FIND/SELLER/Order Details/dd_orderStatusOrderList'), 'Approved', false)
+WebUI.waitForElementVisible(findTestObject('FIND/BUYER/Merchant Storefront/dd_sortPrice'), 0)
+
+WebUI.selectOptionByLabel(findTestObject('FIND/BUYER/Merchant Storefront/dd_sortPrice'), 'Highest Price', false, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('FIND/BUYER/Merchant Storefront/item_price'), 0)
+
+WebUI.verifyElementText(findTestObject('FIND/BUYER/Merchant Storefront/item_price'), 'Actual Price: USD $1500.20')
 

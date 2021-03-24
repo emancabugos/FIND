@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[4]/div[5]/div/div/div/div[7]/div/div/div/iframe</value>
+         <value>/html/body/div[4]/div[5]/div/div/div/div[4]/div/div/div/iframe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -74,7 +74,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[4]/div[5]/div/div/div/div[7]/div/div/div/iframe</value>
+      <value>/html/body/div[4]/div[5]/div/div/div/div[4]/div/div/div/iframe</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

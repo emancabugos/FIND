@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dd_orderStatusOrderList</name>
+   <name>dd_detailsPaymentStatus</name>
    <tag></tag>
-   <elementGuidId>e9e23943-e2dc-4adf-a28e-c3f0156c449e</elementGuidId>
+   <elementGuidId>f5bbabff-e692-40f0-853e-d35f1c810fb9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='orderid-1']</value>
+         <key>CSS</key>
+         <value>#order-status</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#orderid-1</value>
+         <key>XPATH</key>
+         <value>//select[@id='order-status']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[4]/div[3]/div[2]/div/div/div[8]/select[count(. | //select[@class = 'basic status-changer orderstatus']) = count(//select[@class = 'basic status-changer orderstatus'])]</value>
+         <value>//select[@id = 'paymentstatus']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,6 +28,13 @@
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>paymentstatus</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
@@ -37,72 +44,65 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>onchange</name>
       <type>Main</type>
-      <value>orderid-1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>basic status-changer orderstatus</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-bind</name>
-      <type>Main</type>
-      <value>options:OrderStatusList, optionsText:'Name', optionsValue:'ID', value:OrderStatus, event:{change:$root.singleStatusChanged}</value>
+      <value>app.manageOrderDetailsController.order_multiple_itemstatus_popup(this);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>PO CreatedAcknowledgedShipped</value>
+      <value>PO CreatedAcknowledgedApprovedRejectedIn ProcessShipped</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[4]/div[3]/div[2]/div/div/div[8]/select</value>
+      <value>id(&quot;order-status&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='orderid-1']</value>
+      <value>//select[@id='order-status']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='order-list']/div/div[9]/select</value>
+      <value>//div[@id='MyPrintDiv']/div/div/div[2]/div/div[4]/p/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PAYMENT STATUS:'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ORDER STATUS'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refunded'])[2]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delivery From'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ITEM'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PRICE'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

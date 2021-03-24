@@ -46,8 +46,6 @@ File reqIDTmp = tmpDir.resolve('requestID.txt').toFile()
 
 File orderNoTmp = tmpDir.resolve('orderNo.txt').toFile()
 
-WebUI.callTestCase(findTestCase('FIND/Seller/Login_Logout/Seller Login COVID'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Login/seller_menu'), 0)
 
 WebUI.mouseOver(findTestObject('FIND/SELLER/Login/seller_menu'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -66,31 +64,22 @@ WebUI.click(findTestObject('FIND/SELLER/Order Details/icon_search'), FailureHand
 
 WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Order Details/textvalue_invoice'), 0)
 
-WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/textvalue_invoice'), invoice)
+WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/textvalue_invoice'), reqID)
 
 orderNo = WebUI.getText(findTestObject('FIND/SELLER/Order Details/value_orderNo'))
 
 orderNoTmp.text = orderNo
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('FIND/SELLER/Order Details/dd_orderStatusOrderList'), 'PO Created', false, 
+WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/value_paymentType'), 'No Payment')
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('FIND/SELLER/Order Details/dd_orderStatus'), 'Order request created', false, 
     0)
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('FIND/SELLER/Order Details/dd_paymentStatus'), 'N/A', false, 0)
+
+WebUI.verifyOptionSelectedByLabel(findTestObject('FIND/SELLER/Order Details/dd_shippingStatus'), '-', false, 0)
 
 WebUI.click(findTestObject('FIND/SELLER/Order Details/textvalue_invoice'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Order Details/textlabel_paymentStatus'), 0)
-
-WebUI.verifyOptionSelectedByLabel(findTestObject('FIND/SELLER/Order Details/textlabel_paymentStatus'), 'Payment Pending', 
-    false, 0)
-
-String currency = currencyTmp.text.trim()
-
-String subtotal = subtotalTmp.text.trim()
-
-String total = totalTmp.text.trim()
-
-WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/value_subtotal'), ('Subtotal' + currency) + subtotal)
-
-WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/value_total'), currency + total)
-
-WebUI.callTestCase(findTestCase('FIND/Seller/Login_Logout/Seller Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

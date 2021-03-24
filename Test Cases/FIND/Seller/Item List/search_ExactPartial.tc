@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>search_ExactPartial</name>
+   <tag></tag>
+   <comment>Search Item</comment>
+   <testCaseGuid>fa471a38-508a-431f-8679-488395d6d423</testCaseGuid>
+</TestCaseEntity>

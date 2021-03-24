@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDM Verification_Buyer Fund Release_edited</name>
+   <tag></tag>
+   <comment>with precondition</comment>
+   <testCaseGuid>2ce9b808-a6b3-42c7-b8c6-2464f9957cec</testCaseGuid>
+</TestCaseEntity>

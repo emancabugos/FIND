@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>filter_Individual</name>
+   <tag></tag>
+   <comment>Filter User Type
+Filter Date Joined
+Last Logged In</comment>
+   <testCaseGuid>3bd54982-aa3b-425a-8f33-0127ed2cf2c5</testCaseGuid>
+</TestCaseEntity>

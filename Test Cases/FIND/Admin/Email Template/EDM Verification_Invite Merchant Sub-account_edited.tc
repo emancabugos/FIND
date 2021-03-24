@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDM Verification_Invite Merchant Sub-account_edited</name>
+   <tag></tag>
+   <comment>with precondition</comment>
+   <testCaseGuid>e8371abf-ac46-4104-a07c-73272d2742ff</testCaseGuid>
+</TestCaseEntity>

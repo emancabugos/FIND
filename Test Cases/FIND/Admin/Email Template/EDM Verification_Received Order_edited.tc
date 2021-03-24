@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EDM Verification_Received Order_edited</name>
+   <tag></tag>
+   <comment>with precondition</comment>
+   <testCaseGuid>cfb91424-f2e5-45fd-a13a-64d3a03b6c65</testCaseGuid>
+</TestCaseEntity>

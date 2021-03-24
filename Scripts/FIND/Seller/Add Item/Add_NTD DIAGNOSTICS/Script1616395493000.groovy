@@ -67,7 +67,7 @@ WebUI.setText(findTestObject('FIND/SELLER/Add Item/input_QUANTITY'), '5000')
 
 WebUI.comment('Custom Fields')
 
-WebUI.callTestCase(findTestCase('FIND/Seller/Add Item/Custom Fields Updated'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FIND/Seller/Add Item/Custom Fields Input'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

@@ -23,11 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.GDAhomepageURL)
 
 WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Login/textlink_SIGN IN'), 0)
 
-if (WebUI.verifyElementPresent(findTestObject('FIND/SELLER/Login/btn_acceptCookies'), 2, FailureHandling.OPTIONAL) == true) {
-    WebUI.click(findTestObject('FIND/SELLER/Login/btn_acceptCookies'))
-} else {
-    WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
-}
+WebUI.callTestCase(findTestCase('FIND/Accept Cookies'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('FIND/SELLER/Login/textlink_SIGN IN'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -40,6 +36,4 @@ WebUI.setText(findTestObject('FIND/SELLER/Login/textbox_username'), GlobalVariab
 WebUI.setText(findTestObject('FIND/SELLER/Login/textbox_password'), 'welcome8')
 
 WebUI.click(findTestObject('FIND/SELLER/Login/btn_submit'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.acceptAlert()
 
